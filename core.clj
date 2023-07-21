@@ -1,4 +1,4 @@
-(ns lambdaisland-backend.core
+(ns core
   (:gen-class)
   (:require [ring.adapter.jetty :as jetty]
             [ring.middleware.defaults :as ring-defaults]
