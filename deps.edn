@@ -1,0 +1,4 @@
+{:deps {ring/ring-jetty-adapter {:mvn/version "1.10.0"} ;; web server (the postgres of web servers)
+        ring/ring-defaults {:mvn/version "0.3.4"} ;; middleware: session support, CSRF, form parameter handling
+        compojure/compojure {:mvn/version "1.7.0"} ;; alternatively, reitit for routes, muuntaja for middleware
+        hiccup/hiccup {:mvn/version "2.0.0-RC1"}}} ;; representing html from clojure
